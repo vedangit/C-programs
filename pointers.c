@@ -11,7 +11,7 @@ int main()
     printf("\n%p", *ptr);
     printf("\n%d", _age);
 
-
+    //& is for the address and * is for the value associated with the address
     //pointer to pointer
 
     float price = 100.00;
