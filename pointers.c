@@ -1,13 +1,15 @@
 #include<stdio.h>
-
+//
 int main()
 {
     int age = 22;
-    int *ptr = &age;
+    int *ptr = &age; //pointer variable is made
+    //*ptr will lead u to the value of the variable
+    //ptr will lead u to the address of the variable
     int _age = *ptr;
 
     printf("%d", age);
-    printf("\n%p", ptr);
+    printf("\n%p", ptr); 
     printf("\n%p", *ptr);
     printf("\n%d", _age);
 
